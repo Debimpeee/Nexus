@@ -1,0 +1,533 @@
+.hero{
+    width: 100%;
+    max-width: 1181px;
+    background-color: #fefccc;
+    margin: 3rem auto 0;
+    justify-content: center;
+    padding: 1rem 5rem;
+    border-radius: 35px;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+}
+
+.bothEllipse{
+    display: flex;
+    align-items: center;
+}
+
+.ellipse{
+    display: flex;
+    flex-direction: column;
+}
+
+.circle{
+    height: 130px;
+    width: 130px;
+}
+
+.dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 7px;
+    background-color: #c73973;
+    margin-left: 2.5rem;
+}
+
+.orange{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 15px;
+    flex: 1;
+    margin-top: 1.85rem;
+}
+
+.dott{
+    height: 10px;
+    width: 10px;
+    border-radius: 7px;
+    background-color: #f5aa67;
+    margin-right: 7.5rem;
+}
+
+.black{
+    color: #000;
+    font-size: 2.5rem;
+}
+
+.red{
+    font-size: 2.5rem;
+}
+
+.twelve{
+    height: 130px;
+    width: 130px;
+    margin-left: 25rem;
+    align-self: flex-end;
+}
+
+.herooo{
+    padding: 1rem 5rem;
+}
+
+.heroText{
+    padding: 1rem 0;
+}
+
+/* Team Section */
+
+.fullTeam{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    margin: 6.3rem 5rem 2.5rem 5rem;
+}
+
+.member img{
+    width: 100%;
+    height: 460px;
+}
+
+.textArea{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.textArea h4{
+    font-size: 1.6rem;
+    color: #222;
+    margin-bottom: 1rem;
+}
+
+.textArea p{
+    font-size: 1.2rem;
+    color: #888;
+    font-weight: 400;
+}
+
+/* Moment */
+.moment{
+    width: 100%;
+    margin: 2.5rem 0;
+}
+
+.moment h2{
+    font-size: 2.5rem;
+    padding: 3.5rem 0 2rem 2rem;
+}
+
+.spread{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.firstTwo{
+    display: grid;
+    gap: 30px;
+    width: 100%;
+}
+
+.twentyNine{
+    height: 205px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.thirty{
+    height: 375px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.secondTwo{
+    display: grid;
+    width: 100%;
+    gap: 30px;
+}
+
+.thirtyOne{
+    height: 379px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.maskOne{
+    height: 205px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.three{
+    display: grid;
+    width: 100%;
+    gap: 29px;
+}
+
+.thirdTwo{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    gap: 30px;
+    width: 100%;
+}
+
+.sikkema{
+    height: 175px;
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.sitting{
+    height: 175px;
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.maskTwo{
+    height: 206px;
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1440px) {
+    .hero{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width:1015px) {
+    .black{
+        font-size: 2rem;
+    }
+    
+    .red{
+        font-size: 2rem;
+    }
+
+    .moment h2{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:940px) {
+    .member img{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:883px) {
+    .fullTeam{
+        gap: 25px;
+        margin: 4rem 2rem 2rem 2rem;
+    }
+
+    .textArea{
+        margin-top: 10px;
+    }
+    
+    .textArea h4{
+        margin-bottom: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .textArea p{
+        font-size: 0.8rem;
+    }
+
+    .black{
+        font-size: 1.8rem;
+    }
+    
+    .red{
+        font-size: 1.8rem;
+    }
+
+    .moment h2{
+        font-size: 1.8rem;
+        padding: 1.5rem 0 1rem 1rem;
+    }
+
+    .herooo{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .hero{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+@media screen and (max-width:843px) {
+    .member img{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .circle{
+        height: 100px;
+        width: 100px;
+    }
+
+    .twelve{
+        height: 100px;
+        width: 100px;
+        margin-left: 30rem;
+    }
+}
+
+@media screen and (max-width:830px) {
+    .black{
+        font-size: 1.6rem;
+    }
+    
+    .red{
+        font-size: 1.6rem;
+    }
+
+    .moment h2{
+        font-size: 1.6rem;
+    }
+
+    .herooo{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+@media screen and (max-width:800px) {
+    .spread{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width:747px) {
+
+    .fullTeam{
+        margin-top: 5rem;
+    }
+
+    .member img{
+        height: 300px;
+    }
+
+    .herooo{
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+    
+    .heroText{
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+}
+
+@media screen and (max-width:728px) {
+    .herooo{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .twelve{
+        margin-left: 20rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:681px) {
+    .member img{
+        height: 240px;
+    }
+}
+
+@media screen and (max-width:628px) {
+    .black{
+        font-size: 1.5rem;
+    }
+    
+    .red{
+        font-size: 1.5rem;
+    }
+
+    .moment h2{
+        font-size: 1.5rem;
+    }
+
+    .herooo p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:613px) {
+
+    .twelve{
+        margin-top: -2rem;
+    }
+}
+
+@media screen and (max-width:601px) {
+    .black{
+        font-size: 1.4rem;
+    }
+    
+    .red{
+        font-size: 1.4rem;
+    }
+
+    .moment h2{
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width:584px) {
+    .member img{
+        height: 190px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .black{
+        font-size: 1.3rem;
+    }
+    
+    .red{
+        font-size: 1.3rem;
+    }
+
+    .moment h2{
+        font-size: 1.3rem;
+    }
+
+    /* .textArea h4{
+        font-size: 1.2rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .textArea p{
+        font-size: 1rem;
+    } */
+
+}
+
+@media screen and (max-width:549px) {
+    .black{
+        font-size: 1.2rem;
+    }
+    
+    .red{
+        font-size: 1.2rem;
+    }
+
+    .moment h2{
+        font-size: 1.2rem;
+    }
+
+    .herooo{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .twelve{
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:535px) {
+    .twelve{
+        margin-bottom: 1rem;
+        margin-left: 0.2rem;
+        margin-top: 0.2rem;
+    }
+}
+
+@media screen and (max-width:487px) {
+    .black{
+        font-size: 1.1rem;
+    }
+    
+    .red{
+        font-size: 1.1rem;
+    }
+
+    .moment h2{
+        font-size: 1.1rem;
+    }
+
+    .herooo p{
+        font-size: 0.8rem;
+        margin-top: -0.5rem;
+    }
+    
+    .hero{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+}
+
+@media screen and (max-width:487px) {
+    .twelve{
+        margin-bottom: 0.2rem;
+        margin-top: -1rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .orange{
+        gap: 2px;
+        margin-top: 1.5rem;
+    }
+
+    .black{
+        font-size: 1rem;
+    }
+    
+    .red{
+        font-size: 1rem;
+    }
+
+    .moment h2{
+        font-size: 1rem;
+    }
+
+    .ellipse{
+        gap: 10px;
+    }
+
+    .circle{
+        height:80px;
+        width: 80px;
+    }
+
+    .twelve{
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media screen and (max-width:398px) {
+    .black{
+        font-size: 0.9rem;
+    }
+    
+    .red{
+        font-size: 0.9rem;
+    }
+
+    .moment h2{
+        font-size: 0.9rem;
+    }
+}
+
+

@@ -1,0 +1,794 @@
+.hero{
+    display: flex;
+    width: 100%;
+    max-width: 1181px;
+    background-color: #CCFAF5;
+    margin: 3rem auto 0;
+    justify-content: center;
+    padding: 4rem 1rem;
+    border-radius: 35px;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+}
+
+.maximize{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 3.5rem 0 1rem 2.5rem;
+}
+
+ h1{
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+span{
+    color: #e05d5d;;
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.maximize p{
+    font-size: 1.2rem;
+    width: 78%;
+    line-height: 1.7;
+    color: #777;
+    font-weight: 400;
+}
+
+.heroMan img{
+    width: 100%;
+    object-fit: cover;
+    height: 480px;
+    /* height: 480px; */
+    align-items: center;
+    margin-right: -70px;
+    
+}
+
+button{
+    min-width: 200px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.black{
+    background-color: black;
+    color: #fff;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.black:hover{
+    background-color: #d2f9fc;
+    color: #000;
+    border: 3px solid #000;
+}
+
+.border{
+    background-color: #d2f9fc;
+    color: #000;
+    margin-right: 20px;
+    border: 3px solid #000;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.border:hover{
+    background-color: black;
+    color: #fff;
+}
+
+
+/* Team Section */
+
+.team{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+
+.meet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    gap: 54rem;
+    
+}
+
+.meet h2{
+    font-size: 2.5rem;
+}
+
+.meet h3{
+    color: #e05d5d;
+    margin-top: 12px;
+    cursor: pointer;
+    transition: transform 0.4s ease-in-out;
+}
+
+.meet h3:active{
+    color: #fa9a9a;
+    animation: clickAnimation 0.1s forwards;
+}
+
+.teamMembers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.teamMembers img{
+    width: 100%;
+    height: 460px;
+}
+
+.textArea{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.textArea h4{
+    font-size: 1.6rem;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.textArea p{
+    font-size: 1.2rem;
+    color: #888;
+    font-weight: 400;
+}
+
+/* Card */
+.card{
+    width: 100%;
+    background: url("/public/images/img_group_2.png") no-repeat center center/cover;
+    margin: 5rem 0 0 0;
+    justify-content: center;
+    padding: 4rem ;
+}
+
+.contrast{
+    display: flex;
+    padding: 1rem;
+    border-radius: 50%;
+    background: #e05d5d;
+    top: 0;
+    border: 4px solid #fff;
+    margin-top: -5.5rem;
+    margin-left: 0.6rem;
+}
+
+.card h2{
+    font-size: 2.5rem;
+    margin: 3rem 0 3rem 0.5rem;
+}
+
+.arrowBtn{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.arrowBtn button{
+    min-width: 50px;
+    height: 30px;
+    cursor: pointer;
+    background: #e05d5d;
+    border: none;
+}
+
+.cardd{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.firstPara{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.twos{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.square img{
+    height: 50px;
+}
+
+.nameOccu p{
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.nameOccu span{
+    font-size: 1rem;
+    color: #444;
+    font-weight: 400;
+}
+
+.swiper-horizontal{
+    overflow: hidden;
+}
+
+
+/* what we do */
+
+.what h2{
+    text-align: center;
+    margin-top: 6rem;
+    font-size: 2.5rem;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    gap: 6.4rem;
+    align-items: center;
+    border-radius: 90px;
+    padding: 8.2rem 9.4rem;
+    max-width: 1181px;
+    background-color: #ffecec;
+    margin: 2rem auto 0;
+    justify-content: center;
+}
+
+.container img{
+    border-radius: 10px;
+    padding: 0.7rem;
+    margin-bottom: 30px;
+}
+
+.three{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.three:hover{
+    /* background-color: #ffffff; */
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow:  0px 30px 50px 0px #b3b3b318;
+}
+
+.red{
+    background-color: #f56767;
+    box-shadow:  0px 30px 50px 0px #f567677c;
+}
+.blue{
+    background-color: #3ab5c5;
+    box-shadow:  0px 30px 50px 0px #d0edf1;
+}
+.green{
+    background-color: #a2a425;
+    box-shadow:  0px 30px 50px 0px #f8d880;
+}
+
+h4{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+p{
+    color: #444;
+    line-height: 1.8;
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width:1440px){
+    .hero{
+        width:90%
+    }
+
+    .container{
+        width:90%
+    }
+}
+
+@media screen and (max-width:1301px){ 
+    
+    .teamMembers img{
+        height: 450px;
+    }
+    
+    h1{
+        font-size: 4rem;
+    }
+
+    span{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:1293px){ 
+    .meet{
+        gap: 52rem;
+    }
+
+     .container{
+        gap: 5rem;
+    }
+}
+
+
+@media screen and (max-width:1277px){ 
+    .teamMembers img{
+        height: 440px;
+    }
+}
+
+@media screen and (max-width:1248px){ 
+    h1{
+        font-size: 3.5rem;
+    }
+
+    span{
+        font-size: 3.5rem;
+    }
+
+    .teamMembers img{
+    height: 420px;
+    } 
+
+    .meet{
+    gap: 48rem;
+    }
+
+    .heroMan img{
+        height: 450px;
+    }
+
+    .container{
+        padding: 6.2rem 7.4rem;
+    }
+}
+
+@media screen and (max-width:1215px){ 
+    h4{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width:1195px){ 
+    .heroMan img{
+        height: 400px;
+    }
+
+    button{
+        min-width: 150px;
+        height: 60px;
+    }
+
+    .teamMembers img{
+        height: 400px;
+    } 
+
+    .meet{
+        gap: 45rem;
+    }  
+}
+
+@media screen and (max-width:1117px){ 
+    .container{
+        padding: 5rem 6.2rem;
+    }
+
+    .teamMembers img{
+        height: 380px;
+    } 
+
+    .meet{
+        gap: 40rem;
+    } 
+}
+
+@media screen and (max-width:1051px){ 
+
+    h1{
+        font-size: 3rem;
+    }
+
+    span{
+        font-size: 3rem;
+    }
+
+    .hero{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .maximize{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .heroMan img{
+        width: 600px;
+        height: 500px;
+        /* height: 800px; */
+        margin-top: 4rem;
+        margin-right: 0;
+    }
+
+    .maxiText{
+        margin-bottom: 1.5rem;
+    }
+
+    .teamMembers img{
+        height: 340px;
+    } 
+
+    .meet{
+        gap: 35rem;
+    } 
+
+    .container{
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .teamMembers{
+        flex-direction: column;
+    }
+
+    .member{
+        height: 500px;
+    }
+
+    .what h2{
+        margin-top: 4rem;
+        font-size: 2rem;
+    }
+
+    .card h2{
+        font-size: 2rem;
+    }
+
+    .maximize{
+        margin-left: 0;
+    }
+
+    .maxiText p{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:997px) {
+    .meet{
+        gap: 30rem;
+    } 
+
+    /* .meet h2{
+        font-size: 2rem;
+    } */
+
+    .maximize{
+        margin: 1rem;
+    }
+
+    h1{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:883px) {
+
+    h1{
+        font-size: 1.8rem;
+    }
+    /* .fullTeam{
+        gap: 25px;
+        margin: 4rem 2rem 2rem 2rem;
+    }
+
+    .textArea{
+        margin-top: 10px;
+    }
+    
+    .textArea h4{
+        margin-bottom: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .textArea p{
+        font-size: 0.8rem;
+    }
+
+    .black{
+        font-size: 1.8rem;
+    }
+    
+    .red{
+        font-size: 1.8rem;
+    }
+
+    .moment h2{
+        font-size: 1.8rem;
+        padding: 1.5rem 0 1rem 1rem;
+    }
+
+    .herooo{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .hero{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    } */
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:857px) {
+    .meet{
+        gap: 25rem;
+    } 
+
+    /* .meet h2{
+        font-size: 1.8rem;
+    } */
+
+    /* .card h2{
+        font-size: 1.8rem;
+    } */
+}
+
+@media screen and (max-width:839px) {
+    h1{
+        font-size: 2rem;
+    }
+
+    span{
+        font-size: 2rem;
+    }
+
+    .maxiText{
+        margin-bottom: 2rem;
+    }
+
+    .container{
+        border-radius: 50px;
+    }
+
+    .card h2{
+        margin-top: 2rem 0 2rem 0.5rem;
+    }
+
+    .black{
+        font-size: 0.9rem;
+        
+    }
+  
+    .border{
+        font-size: 0.9rem;
+    }
+
+    .meet h2{
+        font-size: 0.9rem;
+    }
+
+    .meet h3{
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+    }
+
+    .textArea h4{
+        font-size: 1rem;
+    }
+    
+    .textArea p{
+        font-size: 0.9rem;
+    }
+
+    .teamMembers{
+        gap: 20px;
+    }
+
+    .what h2{
+        margin-top: 2rem;
+        font-size: 1rem;
+    }
+
+    .container{
+        gap: 3rem;
+    }
+
+    .card h2{
+        font-size: 1rem;
+    }
+
+    .firstPara{
+        font-size: 0.8rem;
+    }
+
+    
+    .nameOccu p{
+        font-size: 0.9rem;
+    }
+    
+    .nameOccu span{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:818px) {
+    .card{
+        padding: 2rem ;
+    }
+
+    .contrast{
+        margin-top: -3.5rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .maximize p{
+        font-size: 0.9rem;
+    }
+
+    .hero{
+        border-radius: 25px;
+    }
+}
+
+
+@media screen and (max-width:728px) {
+
+    .meet{
+        gap: 23rem;
+    } 
+
+
+}
+
+@media screen and (max-width:699px) {
+    .heroMan img{
+        width: 550px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:677px) {
+    .meet{
+        gap: 18rem;
+    } 
+}
+
+@media screen and (max-width:622px) {
+    .heroMan img{
+        width: 500px;
+        height: 400px;
+    }
+
+    .meet{
+        gap: 15rem;
+    } 
+}
+
+@media screen and (max-width:585px) {
+/* 
+    .container{
+        gap: 4rem;
+    } */
+
+    .heroMan img{
+        width: 450px;
+        height: 350px;
+    }
+
+    button{
+        min-width: 100px;
+        height: 40px;
+    }
+
+    .meet{
+        gap: 13rem;
+    } 
+
+    /* .textArea h4{
+        font-size: 1.4rem;
+    } */
+    
+    /* .textArea p{
+        font-size: 1rem;
+    } */
+
+    /* .meet h2{
+        font-size: 1.2rem;
+    } */
+
+    /* .card h2{
+        font-size: 1.2rem;
+    } */
+/* 
+    .meet h3{
+        font-size: 1rem;
+    } */
+}
+
+@media screen and (max-width:569px) {
+    h1{
+        font-size: 1.5rem;
+    }
+
+    span{
+        font-size: 1.5rem;
+    }
+
+    .heroMan img{
+        width: 400px;
+        height: 300px;
+    }
+
+    .meet{
+        gap: 13rem;
+    } 
+
+    .container{
+        padding: 4rem;
+    }
+}
+
+@media screen and (max-width:445px) {
+    .heroMan img{
+       width: 350px;
+       height: 250px;
+   }
+}
+
+@media screen and (max-width:437px) {
+    .meet{
+        gap: 9rem;
+    } 
+}
+
+@media screen and (max-width:398px) {
+    h1{
+        font-size: 1.2rem;
+    }
+
+    span{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:391px) {
+    .heroMan img{
+       width: 300px;
+       height: 200px;
+   }
+}

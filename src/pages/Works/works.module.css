@@ -1,0 +1,1237 @@
+/* Hero */
+.hero{
+    display: flex;
+    width: 100%;
+    max-width: 1181px;
+    background-color: #ccfed8;
+    margin: 3rem auto 0;
+    padding: 0 2rem;
+    border-radius: 35px;
+    flex-wrap: wrap;
+    font-family: "Outfit", sans-serif;
+}
+
+.polygon{
+    width: 100%;
+    height: 60px;
+}
+
+.triangle{
+    height: 80px;
+   
+}
+
+.rectangle{
+    margin-bottom: 3rem;
+    width: 100%;
+    height: 65px;
+}
+
+.blueOrange{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    gap: 40rem;
+}
+
+.blue{
+    background-color: #2dc4f3;
+    width: 11px;
+    height: 11px;
+    border-radius: 7px;
+    margin-left: 6rem;
+}
+
+.orange{
+    background-color: #f5aa67;
+    width: 11px;
+    height: 11px;
+    border-radius: 7px;
+}
+
+.desc{
+    text-align: center;
+}
+
+.desc span{
+    font-size: 2rem;
+}
+
+.triangPoly{
+   display: flex;
+   gap: 40rem;
+}
+
+.greenTriangle{
+    gap: 5rem;
+    margin: 1rem 1rem 5rem 12rem;
+}
+
+.purple{
+    background-color: #3d349d;
+    width: 11px;
+    height: 11px;
+    border-radius: 7px;
+    margin-left: 10rem;
+}
+
+.wedo{
+    margin-top: 3rem;
+}
+
+.blackText {
+    color: #333;
+}
+
+.redText{
+    color: #e05d5d;
+}
+
+.smallText{
+    text-wrap: wrap;
+    margin: 3rem 12rem 0;
+    color: #666;
+}
+
+/* Project */
+
+.project{
+    width: 100%;
+    max-width: 1181px;
+    margin: 4rem auto 0;
+}
+
+.latest {
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    margin-top: 5rem;
+    /* font-size: 2rem; */
+    flex: 1;
+    gap: 60px;
+}
+
+.latest h3{
+    font-size: 2rem;
+}
+
+.latest p{
+    font-size: 1.3rem;
+}
+
+.screenOne{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffb039;
+    width: 100%;
+    max-width: 1181px;
+    margin: 3.5rem auto 0;
+    border-radius: 35px;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+
+}
+
+.foodieImage img{
+    width: 100%;
+    object-fit: cover;
+    height: 490px;
+    bottom: 0;
+    margin-bottom: -68px;
+}
+
+.foodieText{
+    padding: 1rem 0 0 3rem;
+    color: #fff;
+    font-weight:300;
+}
+
+.foodieText h4{
+    font-size: 1.8rem;
+    margin-bottom: 8rem;
+}
+
+.foodieText h3{
+    font-size: 1.8rem;
+    margin-bottom: 8rem;
+    line-height: 1.5;
+}
+
+.thinLine{
+    width: 24%;
+    background: #fff;
+    height: 2px;
+}
+
+.screenTwo{
+    display: flex;
+    flex-direction: row;
+    background-color: #1c327b;
+    width: 100%;
+    max-width: 1181px;
+    margin: 7rem auto 0;
+    border-radius: 35px;
+    padding: 3rem 2rem;
+    align-items: center;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+}
+
+.floopsImage img{
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+    bottom: 0;
+    margin-bottom: -4.3rem;
+    margin-left: 5.65rem;
+}
+
+.floopsText{
+    padding: 1rem 0 0 3rem;
+    color: #fff;
+    font-weight:300;
+}
+
+.floopsText h4{
+    font-size: 1.8rem;
+    margin-bottom: 8rem;
+    background: linear-gradient(to right, #ffb039, transparent 25%); 
+    color: transparent;
+    -webkit-background-clip: text; 
+    background-clip: text; 
+}
+
+
+.floopsText h3{
+    font-size: 1.8rem;
+    margin-bottom: 8rem;
+    line-height: 1.5;
+}
+
+.thinLinee{
+    width: 24%;
+    background: #fff;
+    height: 2px;
+}
+
+.screenThree{
+    display: flex;
+    flex-direction: row;
+    background-color: #fe3d52;
+    width: 100%;
+    max-width: 1181px;
+    margin: 7rem auto 0;
+    border-radius: 35px;
+    font-family: "Outfit", sans-serif;
+    position: relative;
+}
+
+.insightLogo{
+    display: flex;
+    margin-bottom: 8rem;
+    gap: 20px;
+}
+
+.InsightText .first{
+    width: 12%;
+    object-fit: cover;
+}
+
+.InsightText .second{
+    width: 30%;
+    object-fit: cover;
+}
+
+.InsightText{
+    padding: 4rem 0 4rem 5rem;
+    color: #fff;
+    font-weight:300;
+}
+
+.InsightText h3{
+    font-size: 1.6rem;
+    margin-bottom: 8rem;
+    line-height: 1.5;
+}
+
+.insightImage{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    height: 580px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+ }
+
+ .webOne{
+    width:32%;
+    height:522px; 
+    object-fit: cover;
+    border-radius: 35px;
+}
+
+ .webTwo{
+     position: absolute;
+     bottom: 0;
+     top: 0;
+     left: 0;
+     right: 0;
+     margin: auto;
+     height: 456px;
+     width: 100%;
+     object-fit: cover;
+    border-radius: 35px;
+ } 
+
+
+ @media screen and (max-width:1440px) {
+    .hero{
+        width: 90%;
+     }
+
+     .smallText{
+        margin-top: 2rem;
+    }
+
+    .wedo{
+        margin-top: 1.5rem;
+    }
+
+    .project{
+        width: 90%;
+    }
+
+    .screenOne{
+        width: 90%;
+    }
+    
+    .screenTwo{
+        width: 90%;
+    }
+    .screenThree{
+        width: 90%;
+    }
+
+    .triangPoly{
+        gap: 35rem;
+    }
+ }
+
+ @media screen and (max-width:1375px) {
+    /* .floopsImage img{
+        margin-left: 5rem;
+    } */
+ }
+
+ @media screen and (max-width:1344px) {
+    .foodieImage img{
+        height: 480px;
+    }
+ }
+
+ @media screen and (max-width:1305px) {
+
+    .foodieText h4{
+        font-size: 1.6rem;
+    }
+    
+    .foodieText h3{
+        font-size: 1.6rem;
+    }
+    
+    .floopsText h4{
+        font-size: 1.6rem;
+    }
+    
+    .floopsText h3{
+        font-size: 1.6rem;
+    }
+
+    .InsightText h3{
+        font-size: 1.4rem;
+    }
+
+    .webTwo{
+        height: 460px;
+    } 
+
+    .webOne{
+        height:520px; 
+    } 
+
+ }
+
+ @media screen and (max-width:1298px) {
+    .floopsImage img{
+        height: 480px;
+    }
+ }
+
+ @media screen and (max-width:1203px) {
+    .triangPoly{
+        gap: 30rem;
+     }
+ }
+
+ @media screen and (max-width:1241px) {
+    .floopsImage img{
+        height: 460px;
+    }
+ }
+
+ @media screen and (max-width:1222px) {
+    .floopsImage img{
+        height: 430px;
+        margin-left: 4rem;
+    }
+ }
+
+ @media screen and (max-width:1219px) {
+
+    .foodieText h4{
+        font-size: 1.5rem;
+    }
+    
+    .foodieText h3{
+        font-size: 1.5rem;
+    }
+    
+    .floopsText h4{
+        font-size: 1.5rem;
+    }
+    
+    .floopsText h3{
+        font-size: 1.5rem;
+    }
+
+    .InsightText h3{
+        font-size: 1.3rem;
+    }
+ }
+
+ @media screen and (max-width:1198px) {
+    .floopsImage img{
+        height: 410px;
+    }
+ }
+
+ @media screen and (max-width:1118px) {
+    .webOne{
+        height:513px; 
+    } 
+
+    .webTwo{
+        height: 445px;
+    } 
+
+    .foodieText h4{
+        font-size: 1.2rem;
+    }
+    
+    .foodieText h3{
+        font-size: 1.2rem;
+    }
+    
+    .floopsText h4{
+        font-size: 1.2rem;
+    }
+    
+    .floopsText h3{
+        font-size: 1.2rem;
+    }
+
+     .InsightText h3{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .triangPoly{
+        gap: 25rem;
+     }
+ }
+
+@media screen and (max-width:1104px) {
+     .rectangle{
+        height: 55px;
+    }
+ }
+
+ @media screen and (max-width:1005px) {
+    .triangPoly{
+        gap: 20rem;
+     }
+}
+
+@media screen and (max-width:1061px) {
+    .foodieImage img{
+        height: 440px;
+        margin-bottom: -66px;
+    }
+ }
+
+ @media screen and (max-width:1034px) {
+    .webTwo{
+      height: 445px;
+  } 
+
+  .webOne{
+      height:510px; 
+  } 
+
+    .latest h3{
+        font-size: 1.5rem;
+  }
+
+    .latest p{
+        font-size: 1.1rem;
+  }
+}
+
+ @media screen and (max-width:1016px) {
+    .floopsImage img{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:1013px) {
+    .foodieImage img{
+        height: 420px;
+        margin-bottom: -64px;
+    }
+
+    .smallText{
+        margin: 2rem 7rem 0;
+    }
+ }
+    
+ @media screen and (max-width:1005px) {
+    .floopsImage img{
+        height: 390px;
+    }
+}
+
+ @media screen and (max-width:984px) {
+    .foodieImage img{
+        height: 400px;
+    }
+
+    .floopsImage img{
+        height: 380px;
+    }
+}
+
+ @media screen and (max-width:966px) {
+    .screenTwo{
+        margin: 4rem auto 0;
+    }
+
+    .screenThree{
+        margin: 4rem auto 0;
+    }
+
+    .foodieImage img{
+        height: 320px;
+        margin-bottom: -56px;
+    }
+
+    .foodieText{
+        padding-left: 2rem;
+    }
+    
+    .foodieText h4{
+        margin-bottom: 6rem;
+    }
+    
+    .foodieText h3{
+        margin-bottom: 6rem;
+    }
+
+    .floopsText{
+        padding-left: 2rem;
+    }
+    
+    .floopsText h4{
+        margin-bottom: 6rem;
+    }
+    
+    .floopsText h3{
+        margin-bottom: 6rem;
+    }
+
+    .InsightText{
+        padding: 3rem 0 3rem 3rem;
+    }
+
+    .webTwo{
+        height: 340px;
+    } 
+  
+    .webOne{
+        height:460px; 
+    } 
+
+    .insightLogo{
+        margin-bottom: 6rem;
+    }
+
+    .InsightText h3{
+        margin-bottom: 6rem;
+    }
+
+    .foodieText h4{
+        font-size: 1rem;
+    }
+    
+    .foodieText h3{
+        font-size: 1rem;
+    }
+    
+    .floopsText h4{
+        font-size: 1rem;
+    }
+    
+    .floopsText h3{
+        font-size: 0.9rem;
+    }
+
+     .InsightText h3{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:929px) {
+    .blueOrange{
+        gap: 35rem;
+    }
+}
+
+@media screen and (max-width:916px) {
+    .triangPoly{
+        gap: 15rem;
+     }
+ }
+
+@media screen and (max-width:885px) {
+    .blueOrange{
+        gap: 30rem;
+    }
+}
+
+ @media screen and (max-width:854px) {
+    .foodieImage img{
+        height: 300px;
+        margin-bottom: -50px;
+    }
+
+    .floopsImage img{
+        height: 330px;
+    }
+    
+    
+    .foodieText h4{
+        margin-bottom: 5rem;
+    }
+    
+    .foodieText h3{
+        margin-bottom: 5rem;
+    }
+    
+    .floopsText h4{
+        margin-bottom: 5rem;
+    }
+    
+    .floopsText h3{
+        margin-bottom: 5rem;
+    }
+
+    .webTwo{
+        height: 305px;
+    } 
+  
+    .webOne{
+        height:443px; 
+    }  
+
+    .insightLogo{
+        margin-bottom: 5rem;
+    }
+
+    .InsightText h3{
+        margin-bottom: 5rem;
+    }
+
+    .InsightText .first{
+        width: 10%;
+    }
+    
+    .InsightText .second{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:827px) {
+    .triangPoly{
+        gap: 12rem;
+     }
+ }
+
+@media screen and (max-width:807px) {
+    .floopsImage img{
+        height: 230px;
+    }
+}
+
+@media screen and (max-width:782px) {
+    .smallText{
+        margin: 2rem 5rem 0;
+    }
+
+    .greenTriangle{
+        margin: 1rem 1rem 2rem 10rem;
+    }
+}
+
+@media screen and (max-width:750px) {
+     .smallText{
+        margin: 1rem 3rem 0;
+    }
+}
+
+@media screen and (max-width:746px) {
+    .foodieImage img{
+        height: 250px;
+        margin-bottom: -60px;
+    }
+
+    .floopsImage img{
+        height: 255px;
+    }
+    
+    .foodieText h4{
+        margin-bottom: 4rem;
+    }
+    
+    .foodieText h3{
+        margin-bottom: 4rem;
+    }
+    
+    .floopsText h4{
+        margin-bottom: 4rem;
+    }
+    
+    .floopsText h3{
+        margin-bottom: 4rem;
+    }
+
+    .webTwo{
+        height: 270px;
+    } 
+  
+    .webOne{
+        height:425px; 
+    }  
+
+    .insightLogo{
+        margin-bottom: 4rem;
+    }
+
+    .InsightText h3{
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width:733px) {
+    .triangPoly{
+        gap: 10rem;
+     }
+ }
+
+@media screen and (max-width:723px) {
+
+     .blueOrange{
+        gap: 24rem;
+    }
+}
+
+@media screen and (max-width:716px) {
+    .foodieImage img{
+        height: 230px;
+        margin-bottom: -50px;
+    }
+
+    .floopsImage img{
+        height: 230px;
+    }
+    
+    .foodieText h4{
+        margin-bottom: 3rem;
+    }
+    
+    .foodieText h3{
+        margin-bottom: 3rem;
+    }
+    
+    .floopsText h4{
+        margin-bottom: 3rem;
+    }
+    
+    .floopsText h3{
+        margin-bottom: 3rem;
+    }
+
+    .webTwo{
+        height: 240px;
+    } 
+  
+    .webOne{
+        height:410px; 
+    }  
+
+    .insightLogo{
+        margin-bottom: 3rem;
+    }
+
+    .InsightText h3{
+        margin-bottom: 3rem;
+    }
+}
+
+
+@media screen and (max-width:693px) {
+    .triangPoly{
+        gap: 8rem;
+     }
+ }
+
+@media screen and (max-width:695px) {
+    .latest h3{
+        font-size: 1.3rem;
+  }
+
+    .latest p{
+        font-size: 1rem;
+  }
+}
+
+@media screen and (max-width:685px) {
+     .blueOrange{
+        gap: 22rem;
+    }
+}
+
+@media screen and (max-width:659px) {
+    .foodieImage img{
+        height: 190px;
+        margin-bottom: -48px;
+    }
+
+    .floopsImage img{
+        height: 210px;
+    }
+    
+    .foodieText h4{
+        margin-bottom: 2rem;
+    }
+    
+    .foodieText h3{
+        margin-bottom: 2rem;
+    }
+    
+    .floopsText h4{
+        margin-bottom: 2rem;
+    }
+    
+    .floopsText h3{
+        margin-bottom: 2rem;
+    }
+
+    .webTwo{
+        height: 206px;
+    } 
+  
+    .webOne{
+        height:394px; 
+    }  
+
+    .insightLogo{
+        margin-bottom: 2rem;
+    }
+
+    .InsightText h3{
+        margin-bottom: 2rem;
+    }
+
+    .InsightText{
+        padding-left: 1.5rem;
+    }
+
+    .InsightText h3{
+        font-size: 0.8rem;
+    }
+
+    .foodieText{
+        padding-left: 1.5rem;
+    }
+
+    .floopsText{
+        padding-left: 1.5rem;
+    }
+
+    .screenOne{
+        padding: 2rem 1rem;
+}
+
+.screenTwo{
+    padding: 3rem 1rem;
+}
+}
+
+@media screen and (max-width:642px) {
+    .triangPoly{
+        gap: 6rem;
+     }
+ }
+
+@media screen and (max-width:645px) {
+     .blueOrange{
+        gap: 20rem;
+    }
+}
+
+@media screen and (max-width:629px) {
+    .greenTriangle{
+        gap: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .latest h3{
+        font-size: 1rem;
+  }
+
+    .latest p{
+        font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width:608px) {
+    .triangPoly{
+        gap: 4rem;
+    }
+     
+     .smallText{
+        margin: 1rem 2rem 1.5rem 2rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .foodieText h4{
+        margin-bottom: 1.5rem;
+    }
+    
+    .foodieText h3{
+        margin-bottom: 1.5rem;
+    }
+
+    .greenTriangle{
+        margin-bottom: 1rem;
+    }
+
+    .floopsText h4{
+        margin-bottom: 1.5rem;
+    }
+    
+    .floopsText h3{
+        margin-bottom: 1.5rem;
+    }
+
+    .webTwo{
+        height: 202px;
+    } 
+  
+    .webOne{
+        height:392px; 
+    }   
+}
+
+@media screen and (max-width:585px) {
+    .floopsImage img{
+        height: 180px;
+        margin-left: 2rem;
+    }
+
+    .blueOrange{
+        gap: 18rem;
+    }
+
+    .rectangle{
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:577px) {
+        .triangPoly{
+            gap: 2rem;
+    }
+}
+
+@media screen and (max-width:553px) {
+    .latest h3{
+        font-size: 0.95rem;
+  }
+
+    .latest p{
+        font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width:540px) {
+    .triangPoly{
+        gap: 1rem;
+}
+}
+
+@media screen and (max-width:545px) {
+    .floopsImage img{
+        height: 160px;
+    }
+}
+
+@media screen and (max-width:536px) {
+    .foodieImage img{
+        height: 170px;
+    }
+
+    .InsightText .first{
+        width: 9%;
+    }
+    
+    .InsightText .second{
+        width: 22%;
+    }
+
+    .InsightText h3{
+        font-size: 0.6rem;
+    }
+
+     .webTwo{
+        height: 198px;
+    } 
+  
+    .webOne{
+        height:389px; 
+    }  
+}
+
+@media screen and (max-width:525px) {
+    .blueOrange{
+        gap: 15rem;
+    }
+}
+
+@media screen and (max-width:512px) {
+    .smallText{
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width:506px) {
+    .triangPoly{
+        gap: 0.5rem;
+}
+
+.greenTriangle{
+    gap: 2rem;
+    margin: 0 2rem 1rem 8rem;
+}
+}
+
+@media screen and (max-width:504px) {
+    .foodieImage img{
+        height: 140px;
+        margin-bottom: -49px;
+    }
+ 
+    .foodieText h4{
+        margin-bottom: 1.2rem;
+        font-size: 0.9rem;
+    }
+    
+    .foodieText h3{
+        margin-bottom: 1.2rem;
+        font-size: 0.9rem;
+    }
+    
+    .floopsText h4{
+        margin-bottom: 1.2rem;
+        font-size: 0.9rem;
+    }
+    
+    .floopsText h3{
+        margin-bottom: 1.2rem;
+        font-size: 0.9rem;
+    }
+}
+
+
+@media screen and (max-width:498px) {
+    .floopsImage img{
+        height: 150px;
+        margin-left: 1.8rem;
+    }
+}
+
+@media screen and (max-width:488px) {
+    .floopsImage img{
+        height: 140px;
+    }
+}
+
+@media screen and (max-width:481px) {
+        .blueOrange{
+            gap: 11rem;
+        }
+}
+
+@media screen and (max-width:485px) {
+    .latest {
+        gap: 30px;
+  }
+}
+
+@media screen and (max-width:470px) {
+    .floopsImage img{
+        height: 130px;
+    }
+}
+
+@media screen and (max-width:466px) {
+    .greenTriangle{
+        gap: 1rem;
+        margin: 0 2rem 1rem 6rem;
+    }
+}
+
+@media screen and (max-width:452px) {
+    .latest {
+        gap: 20px;
+  }
+
+  .latest h3{
+    font-size: 0.7rem;
+}
+
+.latest p{
+    font-size: 0.65rem;
+}
+
+.floopsImage img{
+    height: 110px;
+    margin-left: 3rem;
+}
+
+.screenTwo{
+    padding: 2rem;
+}
+}
+
+@media screen and (max-width:436px) {
+    .foodieImage img{
+        height: 125px;
+        margin-bottom: -54px;
+    }
+
+    .greenTriangle{
+        margin: 0 1rem 1rem 6rem;
+    }
+
+    .purple{
+        margin-left: 7rem;
+    }
+ 
+    .foodieText h4{
+        margin-bottom: 1.2rem;
+        font-size: 0.7rem;
+    }
+    
+    .foodieText h3{
+        margin-bottom: 1.2rem;
+        font-size: 0.7rem;
+    }
+
+   .floopsText h4{
+        margin-bottom: 1.2rem;
+        font-size: 0.7rem;
+    }
+    
+    .floopsText h3{
+        margin-bottom: 1.2rem;
+        font-size: 0.7rem;
+    }
+
+    .InsightText h3{
+        font-size: 0.5rem;
+    }
+    
+    .InsightText .first{
+        width: 8%;
+    }
+    
+    .InsightText .second{
+        width: 20%;
+    }
+
+     .webTwo{
+        height: 194px;
+    } 
+  
+    .webOne{
+        height:387px; 
+    }  
+}
+
+@media screen and (max-width:428px) {
+    .blueOrange{
+        gap: 9rem;
+    }
+}
+
+@media screen and (max-width:405px) {
+    .floopsImage img{
+        height: 90px;
+        /* margin-left: 3rem; */
+    }
+}
+
+@media screen and (max-width:386px) {
+    .foodieImage img{
+        height: 120px;
+        margin-bottom: -54px;
+    }
+
+    .InsightText h3{
+        font-size: 0.47rem;
+    }
+    
+    .InsightText .first{
+        width: 7%;
+    }
+    
+    .InsightText .second{
+        width: 18%;
+    }
+
+     .webTwo{
+        height: 190px;
+    } 
+  
+    .webOne{
+        height:385px; 
+    }  
+}
